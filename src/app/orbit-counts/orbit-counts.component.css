@@ -12,3 +12,21 @@
 .counts span {
 	float: right;
 }
+
+table {
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 12px 0;
+	min-width: 225px;
+}
+
+th, td {
+	text-align: left;
+	font-weight: normal;
+	margin: 5px 10px;
+	padding: 6px;
+}
+
+td:nth-child(even) {
+	text-align: right;
+}
